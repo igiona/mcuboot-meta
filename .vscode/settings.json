@@ -1,0 +1,41 @@
+{
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": true
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml",
+        "editor.formatOnSave": true
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "rust-analyzer.check.command": "clippy",
+    "cSpell.words": [
+        "mcuboot"
+    ],
+    "workbench.colorCustomizations": {
+        "terminal.background": "#0c0c0c",
+        "terminal.foreground": "#e7e7e7",
+        "terminalCursor.background": "#e7e7e7",
+        "terminalCursor.foreground": "#e7e7e7",
+        "activityBar.background": "#05284A",
+        "titleBar.activeBackground": "#77B8F7",
+        "titleBar.activeForeground": "#031A31",
+        "titleBar.inactiveBackground": "#05284A",
+        "titleBar.inactiveForeground": "#031A31",
+        "statusBar.background": "#06325D",
+        "statusBar.foreground": "#F7FBFE",
+        "statusBar.debuggingBackground": "#06325D",
+        "statusBar.debuggingForeground": "#F7FBFE",
+        "statusBar.noFolderBackground": "#06325D",
+        "statusBar.noFolderForeground": "#F7FBFE"
+    }
+}
