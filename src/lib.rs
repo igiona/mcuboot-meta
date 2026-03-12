@@ -10,12 +10,13 @@ use std::{fs::File, io::Cursor, path::Path};
 use log::trace;
 
 use crate::{
-    error::Error,
     image_header::ImageHeader,
     image_tlv::{
         ImageTlvAreaHeader, ImageTlvAreaType, ImageTlvEntry, ImageTlvEntryType, TakeTlvEntry,
     },
 };
+
+pub use crate::error::Error;
 
 #[derive(Debug)]
 /// Struct containing all the relevant metadata of a mcuboot image
