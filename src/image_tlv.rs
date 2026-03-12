@@ -1,4 +1,4 @@
-//! See https://github.com/mcu-tools/mcuboot/blob/main/boot/bootutil/include/bootutil/image.h for more details on these constants.
+//! See <https://github.com/mcu-tools/mcuboot/blob/main/boot/bootutil/include/bootutil/image.h> for more details on these constants.
 
 use std::io::Cursor;
 

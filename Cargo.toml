@@ -1,11 +1,17 @@
 [package]
 name = "mcuboot-meta"
-version = "0.1.1"
+version = "0.1.4"
 edition = "2024"
 
 description = "A library to read and parse MCUboot images written in rust 🦀"
 repository = "https://github.com/igiona/mcuboot-meta"
 license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/mcuboot-meta/"
+keywords = ["mcuboot", "image", "bootloader", "embedded", "zephyr"]
+categories = ["parser-implementations"]
+
+[package.metadata.docs.rs]
+all-features = true
 
 [dependencies]
 bitflags = "2.11.0"

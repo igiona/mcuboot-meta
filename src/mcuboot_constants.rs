@@ -1,4 +1,4 @@
-//! See https://github.com/mcu-tools/mcuboot/blob/main/boot/bootutil/include/bootutil/image.h for more details on these constants.
+//! See <https://github.com/mcu-tools/mcuboot/blob/main/boot/bootutil/include/bootutil/image.h> for more details on these constants.
 
 pub(super) const IMAGE_MAGIC: u32 = 0x96f3b83d;
 pub(super) const IMAGE_TLV_INFO_MAGIC: u16 = 0x6907;
