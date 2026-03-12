@@ -1,7 +1,11 @@
 [package]
-name = "mcuboot-rs"
-version = "0.1.0"
+name = "mcuboot-meta"
+version = "0.1.1"
 edition = "2024"
+
+description = "A library to read and parse MCUboot images written in rust 🦀"
+repository = "https://github.com/igiona/mcuboot-meta"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 bitflags = "2.11.0"
